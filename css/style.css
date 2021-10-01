@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(172, 220, 241);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.formulario p {
+    color: white;
+    font-family: 'KoHo', sans-serif;
+    font-weight: bolder;
+}
+
+.formulario h3 {
+    color: white;
+    font-family: 'KoHo', sans-serif;
+    font-weight: bolder;
+}
+
+.formulario h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 8px rgb(61, 60, 60);
+}
+
+.formulario input[name='cuenta'],
+.formulario select[name='servicio'],
+.formulario input[name='personas'] {
+    width: 100%;
+    height: 35px;
+    font-family: 'KoHo', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    font-size: 15px;
+    color: rgb(112, 111, 111);
+    box-shadow: 1px 1px 3px rgb(97, 94, 94);
+}
+
+.btn_calcular {
+    width: 40%;
+    text-align: center;
+    background-color: white;
+    position: center;
+    color: rgb(112, 111, 111);
+    box-shadow: 1px 1px 3px rgb(97, 94, 94);
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
